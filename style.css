@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: #898a90;
+}
+
+h1,
+h3 {
+  color: #1a1c20;
+}
+
+img {
+  max-height: 100%;
+}
+
+.page-wraper {
+  background: linear-gradient(
+    90deg,
+    rgba(190, 218, 229, 1) 0%,
+    rgba(238, 140, 140, 1) 58%,
+    rgba(250, 145, 173, 1) 85%
+  );
+  margin: 20px auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+}
+
+.content-wraper {
+  background-color: rgb(237, 239, 241);
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 10px 20px;
+  box-shadow: rgba(49, 31, 31, 0.2) 0px 7px 29px 0px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logo-sec {
+  display: flex;
+  align-items: center;
+}
+
+.links ul {
+  display: flex;
+}
+
+.links ul li {
+  list-style: none;
+  margin-right: 1.5rem;
+}
+
+.links ul li a:hover {
+  background: black;
+  border-radius: 5px;
+  padding: 0.2rem 0.6rem;
+  color: white;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.links ul li:last-child {
+  margin-right: 0;
+  background: black;
+  border-radius: 5px;
+  padding: 0.2rem 0.6rem;
+}
+
+#view a {
+  color: white;
+}
+
+#view a:hover {
+  padding: 0;
+}
+
+.section-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1,
+.section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
+
+.section-1 {
+  margin: 6rem 0;
+}
+
+.section-2 {
+  margin-bottom: 6rem;
+}
+
+.img {
+  display: flex;
+}
+
+.img-container {
+  background: linear-gradient(
+    90deg,
+    rgba(190, 218, 229, 1) 0%,
+    rgba(238, 140, 140, 1) 58%,
+    rgba(250, 145, 173, 1) 85%
+  );
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me,
+.skills,
+.skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  flex-direction: column;
+  font-size: 1.1rem;
+  line-height: 28px;
+}
+.about-me h1 {
+  align-self: start;
+  margin-bottom: 1rem;
+  font-size: 2.1rem;
+}
+
+.career h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.career p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.skills ul {
+  flex-wrap: wrap;
+  max-width: 70%;
+}
+
+.skills ul li {
+  list-style: none;
+  padding: 3px 5px;
+  border: 1px solid grey;
+  margin: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #515053;
+}
